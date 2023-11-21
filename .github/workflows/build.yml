@@ -32,9 +32,9 @@ jobs:
       - name: ファイルをFTPサーバーに同期
         uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
-          server: seven-inc.xsrv.jp
-          username: seven-inc
-          password: 5sdokbxp
+          server: ftp.lolipop.jp
+          username: main.jp-ernskmt
+          password: Coji52coji
           local-dir: ./dist/
           server-dir: /microcms-astro-githubaction_test
 
@@ -60,8 +60,8 @@ jobs:
       - name: ファイルをFTPサーバーに同期
         uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
-          server: seven-inc.xsrv.jp
-          username: seven-inc
-          password: 5sdokbxp
+          server: ftp.lolipop.jp
+          username: main.jp-ernskmt
+          password: Coji52coji
           local-dir: ./dist/
           server-dir: /microcms-astro-githubaction
