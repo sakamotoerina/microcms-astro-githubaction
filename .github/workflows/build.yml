@@ -36,7 +36,7 @@ jobs:
           username: main.jp-ernskmt
           password: Coji52coji
           local-dir: ./dist/
-          server-dir: /microcms-astro-githubaction_test
+          server-dir: /erinasakamoto/microcms-astro-githubaction_test
 
   deploy-main:
     name: 本番サーバーにデプロイ
@@ -64,4 +64,4 @@ jobs:
           username: main.jp-ernskmt
           password: Coji52coji
           local-dir: ./dist/
-          server-dir: /microcms-astro-githubaction
+          server-dir: /erinasakamoto/microcms-astro-githubaction
