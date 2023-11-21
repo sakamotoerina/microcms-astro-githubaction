@@ -8,6 +8,7 @@ const response = await getBlogs({ fields: ["id", "title"] });
 
 <Layout title="My first blog with Astro">
   <main>
+		<h1>microCMS、Astro、GitHubAtionテストサイト</h1>
     <ul>
       {
         response.contents.map((content: any) => (
@@ -26,4 +27,7 @@ const response = await getBlogs({ fields: ["id", "title"] });
     padding: 1em;
     max-width: 60ch;
   }
+	h1 {
+		color:white;
+	}
 </style>
